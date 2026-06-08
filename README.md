@@ -1,9 +1,6 @@
-function navigate(page) {
-    window.location.hash = page;
-    renderPage();
-}
-
-window.addEventListener(
-    "hashchange",
-    renderPage
-);# Full-stack-developement
+<div class="product-card">
+    <img src="product.jpg" alt="Product">
+    <h3>Product Name</h3>
+    <p>$49.99</p>
+    <button>Add To Cart</button>
+</div>
